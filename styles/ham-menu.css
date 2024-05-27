@@ -4,6 +4,7 @@ body {
   font-family: Open Sans;
   padding: 0;
   margin: 0;
+  color: #222222;
 }
 
 .off-screen_menu {
@@ -130,4 +131,88 @@ i {
 .ham-menu.active span:nth-child(3) {
   top: 50%;
   transform: translate(525px, 350px) rotate(-45deg);
+}
+
+main {
+  background-color: blue;
+  width: 100%;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+}
+
+.image_summer-2024 img {
+  width: 300px;
+  height: 600px;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer {
+  background-color: #e4e4e4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.footer-1 {
+  width: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer div {
+  font-size: 14px;
+  padding: 2px;
+}
+
+.footer p {
+  font-size: 13px;
+  margin-top: 70px;
+}
+
+.footer-2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.footer-2 i {
+  margin: 15px 20px;
+}
+
+.footer-3 {
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+
+.footer-4 {
+  margin-bottom: 20px;
+}
+
+.footer-4 img {
+  width: 50px;
+}
+
+.footer-5 {
+  font-size: 16px;
+  font-weight: 700;
 }
