@@ -1,0 +1,65 @@
+.new-arrivals h4 {
+  font-size: 24px;
+  font-weight: 500;
+  /* margin-left: 10px; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  padding: 10px 15px;
+  margin-top: 20px;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 40% 40% 40% 40%;
+  font-size: 16px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.active {
+  background-color: #e50010;
+  border: 1px solid #e50010;
+  color: white;
+}
+.show-img-style {
+  margin: 20px 0;
+  padding-right: 10px;
+  padding-top: 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-style {
+  width: 222px;
+  height: 333px;
+}
+
+.card-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-style img {
+  cursor: pointer;
+}
+
+.card-style p {
+  margin-top: 3px;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+.card-style p:hover {
+  text-decoration: underline;
+}
+
+.card-style p:nth-child(2):hover {
+  cursor: pointer;
+}
