@@ -146,11 +146,36 @@ main {
   font-size: 13px;
 }
 
-.image_summer-2024 img {
-  width: 300px;
-  height: 600px;
-  margin: 0px;
-  padding: 0px;
+.s-2024-1 {
+  position: relative;
+}
+
+.summer-2024 img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.summer-2024 .text-over-img {
+  position: absolute;
+  top: 450px;
+  left: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.summer-2024 .text-over-img div {
+  font-size: 80px;
+  color: #fff;
+  font-weight: 700;
+}
+.summer-2024 .text-over-img button {
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 600px;
+  background-color: #fff;
+  border: none;
+  max-width: 120px;
 }
 
 footer {
